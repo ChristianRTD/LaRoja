@@ -13,8 +13,8 @@ export default function HomeScreen() {
   // Función para manejar el evento interactivo del botón
   const handleButtonPress = () => {
     Alert.alert(
-      '¡Somo la Tri! 🇪🇨',
-      '¡Ecuador clasificado y listo para darlo todo en la cancha!',
+      '¡Somos La Roja! 🇪🇸',
+      '¡España es Campeona del Mundo 2026 y reina del fútbol global!',
       [{ text: '¡Aceptar!', onPress: () => console.log('Alerta cerrada') }]
     );
   };
@@ -23,8 +23,8 @@ export default function HomeScreen() {
     <ScrollView contentContainerStyle={styles.container}>
       {/* 1. Encabezado o título con el nombre del equipo */}
       <View style={styles.headerContainer}>
-        <Text style={styles.headerTitle}>Selección Ecuatoriana de Fútbol</Text>
-        <Text style={styles.headerSubtitle}>La Tri</Text>
+        <Text style={styles.headerTitle}>Selección Española de Fútbol</Text>
+        <Text style={styles.headerSubtitle}>La Roja / La Furia Roja</Text>
       </View>
 
       {/* 2. Imagen del escudo o logo de la Selección */}
@@ -42,17 +42,22 @@ export default function HomeScreen() {
         
         <View style={styles.infoRow}>
           <Text style={styles.label}>• Confederación:</Text>
-          <Text style={styles.value}>CONMEBOL</Text>
+          <Text style={styles.value}>UEFA</Text>
         </View>
 
         <View style={styles.infoRow}>
           <Text style={styles.label}>• Entrenador actual:</Text>
-          <Text style={styles.value}>Sebastián Beccacece</Text>
+          <Text style={styles.value}>Luis de la Fuente</Text>
         </View>
 
         <View style={styles.infoRow}>
-          <Text style={styles.label}>• Estadio local:</Text>
-          <Text style={styles.value}>Estadio Rodrigo Paz Delgado (Quito)</Text>
+          <Text style={styles.label}>• Estadio habitual:</Text>
+          <Text style={styles.value}>Estadio Santiago Bernabéu (Madrid)</Text>
+        </View>
+
+        <View style={styles.infoRow}>
+          <Text style={styles.label}>• Último gran logro:</Text>
+          <Text style={styles.value}>🏆 Campeón del Mundo 2026</Text>
         </View>
       </View>
 
@@ -67,7 +72,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
-    backgroundColor: '#aeb0b1',
+    backgroundColor: '#AEB0B1',
     paddingHorizontal: 20,
     paddingTop: 50,
     paddingBottom: 30,
@@ -80,13 +85,13 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#002B49', // Azul marino
+    color: '#AD1519', // Rojo Selección
     textAlign: 'center',
   },
   headerSubtitle: {
     fontSize: 18,
     fontWeight: '600',
-    color: '#D21034', // Rojo
+    color: '#FABD00', // Amarillo / Dorado
     marginTop: 4,
   },
   logoContainer: {
@@ -119,7 +124,7 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#002B49',
+    color: '#AD1519',
     marginBottom: 15,
     borderBottomWidth: 1,
     borderBottomColor: '#EEEEEE',
@@ -140,7 +145,7 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
   button: {
-    backgroundColor: '#003DA5', // Azul de La Tri
+    backgroundColor: '#AD1519', // Rojo Selección
     width: '100%',
     paddingVertical: 15,
     borderRadius: 12,
