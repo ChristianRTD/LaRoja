@@ -30,7 +30,7 @@ export default function HomeScreen() {
       {/* 2. Imagen del escudo o logo de la Selección */}
       <View style={styles.logoContainer}>
         <Image
-          source={require('../../assets/images/tri.png')}
+          source={require('../../assets/images/LaRoja.png')}
           style={styles.logo}
           resizeMode="contain"
         />

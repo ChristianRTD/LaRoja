@@ -18,7 +18,7 @@ export default function SplashScreen() {
     <View style={styles.container}>
       {/* Escudo desde la carpeta de assets local */}
       <Image
-        source={require('../assets/images/logo_ecuador.png')}
+        source={require('../assets/images/logo_espana.png')}
         style={styles.logo}
         resizeMode="contain"
       />
