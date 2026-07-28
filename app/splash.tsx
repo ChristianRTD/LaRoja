@@ -24,10 +24,10 @@ export default function SplashScreen() {
       />
 
       {/* Título Principal */}
-      <Text style={styles.mainTitle}>ECUADOR</Text>
+      <Text style={styles.mainTitle}>ESPANA</Text>
       
       {/* Subtítulo estilo cursiva */}
-      <Text style={styles.subtitle}>- La Tri -</Text>
+      <Text style={styles.subtitle}>- La Roja -</Text>
 
       {/* Indicador de carga inferior */}
       <View style={styles.loadingContainer}>
@@ -41,7 +41,7 @@ export default function SplashScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFCC00',
+    backgroundColor: '#ff0400',
     justifyContent: 'center',
     alignItems: 'center',
     paddingHorizontal: 20,
